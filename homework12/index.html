@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 12</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="pages-btns">
+        <button class="page-btn" id="actorsPage">Актери</button>
+        <button class="page-btn" id="planetsPage">Планети</button>
+    </div>
+    <div class="actors-container">
+        <div class="search-box">
+            <input type="number" placeholder="Введіть номер фільму" class="input" min="1" max="6">
+            <button class="button">Отримати інформацію по акторам</button>
+            <p class="search-subinfo"></p>
+        </div>
+        <div class="container">
+            <div class="actors-block"></div>
+        </div>
+    </div>
+
+    <div class="planets-container">
+        <h1 class="planets-title">Інформація про планети</h1>
+        <div class="planet-block">
+            <div class="planet-box"></div>
+        </div>
+        <div class="page-btns">
+            <button id="btn-prev" class="button">
+                < Попередня</button>
+                    <button id="btn-next" class="button">Наступна ></button>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

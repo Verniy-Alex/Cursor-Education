@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 1124px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 15px 15px;
+    transition: .2s ease-in-out;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.actor-block {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.actor-block p {
+    margin-bottom: 10px;
+}
+
+.actor-name {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.actor-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.input {
+    width: 200px;
+    padding: 5px 0;
+}
+
+.button {
+    padding: 5px 5px;
+}
+
+.search-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.button {
+    margin-top: 10px;
+}
+
+.input {
+    margin-top: 10px;
+}
+
+.search-subinfo {
+    margin-top: 10px;
+}
+
+.planet-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.planet-block {
+    max-width: 1124px;
+    margin: 0 auto;
+}
+
+.planet-wrapper {
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 10px;
+}
+
+.page-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.page-btns button {
+    margin: 10px;
+}
+
+.planets-title {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 32px;
+    color: #333;
+}
+
+.planet-wrapper {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.planet-wrapper p {
+    margin-top: 10px;
+}
+
+.pages-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.page-btn {
+    padding: 20px 30px;
+    margin: 10px;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid black;
+    color: #000;
+    font-size: 22px;
+    transition: .2s ease-in-out;
+}
+
+.page-btn:hover {
+    color: #fff;
+    background: #333;
+}
